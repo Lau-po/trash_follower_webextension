@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="utf-8">
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/styles.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+	rel="stylesheet" type="text/css">
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/common.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-6 ">
+				<div class="card">
+					<div class="card-header" id="channel1head"></div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="card">
+					<div class="card-header" id="channel2head"></div>
+					<div class="card-body" id="liveChannel"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div class="card">
+					<div class="card-header" id="channel3head"></div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="card" id="channel4card">
+					<div class="card-header" id="channel4head"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="liveBlock">
+			<div id="interfaceBtndiv" class="col-12">
+				<span id="openapp" class="btn btn-info mainbtn">Ouvrir
+					l'interface</span>
+			</div>
+			<div class="col-12">
+				<div class="card" id="Videobody">
+					<div class="card-block">
+						<!-- 						<h3 class="card-title">Dernière vidéo :</h3> -->
+						<h5 id="VideoTitle">En cours de chargement</h5>
+						<div>
+							<img src="" id="VideoThumbnail" class="img-fluid img-wide"
+								alt="Ouvrir la video" />
+						</div>
+						<div class="row stats">
+							<div class="col-4" id="thumbsup">a</div>
+							<div class="col-4" id="thumbsdown">b</div>
+							<div class="col-4" id="views">c</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

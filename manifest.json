@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trash Follower",
+  "description": "Cette extension permet de vous tenir au courant de toutes l'actualite TRASH!",
+  "version": "0.1",
+
+  "author": "Laurent Poulin",
+  
+  "background": {
+      "scripts": [ "/js/trash_ext.js" ]
+   },
+   
+  "browser_action": {
+    "default_icon": "/images/icon.png",
+    "default_popup": "popup.html"
+  },
+  
+  "icons": { "128": "/images/icon.png" },
+
+  "permissions": [
+    "https://ajax.googleapis.com/",
+    "https://trash.neio.fr/",
+    "https://i.ytimg.com/",
+    "https://img.youtube.com/",
+    "https://api.myjson.com/",
+    "notifications",
+    "tabs",
+    "storage"
+  ],
+  
+  "web_accessible_resources": [
+    "/images/icon.png"
+  ]
+}

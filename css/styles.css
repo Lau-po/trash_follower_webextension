@@ -1,0 +1,171 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+html {
+	width: 400px;
+}
+
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial,
+		sans-serif;
+	background: #CD1902 url(/images/bg.png);
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.header-img {
+	width: 50px;
+}
+
+.img-wide {
+	display: block;
+	margin: 0 auto;
+}
+
+#liveChannel {
+	background-color: #5cb85c;
+}
+
+#Videobody {
+	margin-bottom: 10px;
+}
+
+.badge {
+	background-color: #5cb85c;
+	/* 	float: right; */
+	font-size: 100%;
+	width: 100%;
+	/* 	transform: rotate(90deg); */
+}
+
+.row {
+	/* 	margin-bottom: 10px; */
+	margin-top: 10px;
+}
+
+.card {
+	border-color: #000;
+	border-width: 2px;
+}
+
+.card-header {
+	font-weight: bold;
+	color: #000;
+}
+
+.mainbtn {
+	min-width: 100%;
+	margin-bottom: 10px;
+	cursor: default;
+}
+
+body {
+	cursor: default;
+}
+
+#channel1head {
+	min-height: 45px;
+	background: #DE2827 url("/images/trash.jpg");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 30%;
+}
+
+#channel2head {
+	min-height: 45px;
+	background: #FFE105 url("/images/team_trash.jpg");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 30%;
+}
+
+#channel3head {
+	min-height: 45px;
+	background: #00274E url("/images/trash_stories.jpg");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+}
+
+#channel4head {
+	min-height: 45px;
+	background: url("/images/pokemon_trash.jpg");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 55%;
+}
+
+#channel4card {
+	background: #e41e1f; /* Old browsers */
+	background: -moz-linear-gradient(top, #e41e1f 0%, #e41e1f 25%, #ffffff 26%, #ffffff
+		100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e41e1f 0%, #e41e1f 25%, #ffffff 26%,
+		#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e41e1f 0%, #e41e1f 25%, #ffffff 26%, #ffffff
+		100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e41e1f',
+		endColorstr='#ffffff', GradientType=0); /* IE6-9 */
+}
+
+.text-vertical-center {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header {
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.stats {
+	background-color: #dfdfdf;
+	width: 100%;
+	margin: auto;
+}
+
+#thumbsup {
+	background-image: url(/images/thumbsup.svg);
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	padding-left: 8%;
+	color: #4898D6;
+}
+
+#thumbsdown {
+	background-image: url(/images/thumbsdown.svg);
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	padding-left: 8%;
+	border-left: #f0f0f0 solid;
+	border-right: #f0f0f0 solid;
+}
+
+#views {
+	background-image: url(/images/eye.svg);
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	padding-left: 8%;
+	color: #2e2e2e;
+}
+
+.VideoTitle {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	line-height: 16px; /* fallback */
+	max-height: 32px; /* fallback */
+	-webkit-line-clamp: 2; /* number of lines to show */
+	-webkit-box-orient: vertical;
+}
